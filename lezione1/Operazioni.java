@@ -26,12 +26,6 @@ public class Operazioni{
         System.out.println(d/b);
         System.out.println(a%d);
 
-       
-
-
-
-
 
     }
-
 }
