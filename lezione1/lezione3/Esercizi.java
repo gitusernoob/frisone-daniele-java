@@ -80,7 +80,7 @@ public class Esercizi {
         char[] stringaInvertita = stringa.toCharArray();
         int c1 = 0;
         for (int i = stringa.length() - 1; i >= 0; i--) {
-            stringaInvertita[c] =stringa.charAt(i);
+            stringaInvertita[c1] = stringa.charAt(i);
             c1++;
         }
         System.out.println(stringaInvertita);
