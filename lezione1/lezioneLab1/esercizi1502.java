@@ -37,7 +37,6 @@ public class esercizi1502 {
 //                break;
 //        }
 
-
     } //end main
 
 
@@ -78,8 +77,8 @@ public class esercizi1502 {
 
 
             if(operazione.equals("+")){
-                risultato = numero1 + numero2;
-                System.out.println(risultato);
+                //risultato = numero1 + numero2;
+                System.out.println(somma(numero1,numero2));
             }
             if(operazione.equals("-")){
                 risultato = numero1 - numero2;
@@ -93,7 +92,7 @@ public class esercizi1502 {
                 risultato = numero1 / numero2;
                 System.out.println(risultato);
             } else if(numero2 == 0 && operazione.equals("/")){
-                System.out.println("non si può dividere per zero");
+                System.out.println("infinito");
             }
             if(operazione.equals("divisibile")){
                 if(numero1 % numero2 == 0){
@@ -109,5 +108,10 @@ public class esercizi1502 {
         } //fine while
 
     } // fine funzione calcolatrice
+
+
+    static Double somma(double a , double b){
+        return  a+b;
+    }
 
 } //end class
