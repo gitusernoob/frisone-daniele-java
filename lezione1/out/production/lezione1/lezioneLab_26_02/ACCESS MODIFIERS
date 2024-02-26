@@ -1,0 +1,18 @@
+
+
+MODIFICATORI DI ACCESSO:
+    -Sono quei costrutti che definiscono come possiamo accedere ai nostri:
+        -metodi;
+        -variabili;
+        -classi.
+    -vengono dichiarati prima del tipo della variabile/metodo/classe.
+
+    - PUBLIC: definisce (come dice il nome) un accesso pubblico
+        chiunque all'interno del mio programma può accedere (richiamare) la mia variabile
+        metodo o classe (anche se sono in package diversi)
+    - PROTECTED: definisce un accesso "pubblico" all'interno del mio package
+        utilizzato specialmente in ereditarietà
+    - PRIVATE: definisce un accesso pubblico agli elementi solo all'interno del contesto
+        in cui sono dichiarati, ma non al di fuori del contesto stesso.
+        - se dichiaro una variabile private, allora potrò usare tale variabile solo all'interno
+            della mia classe, stessa cosa per i metodi
