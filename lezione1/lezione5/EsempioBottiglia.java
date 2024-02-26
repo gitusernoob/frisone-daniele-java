@@ -10,12 +10,12 @@ public class EsempioBottiglia {
 
         b1.riempi(15500);
         System.out.println(b1);
-        b1.svouta(1600);
+        b1.svuota(1600);
         System.out.println(b1);
 
         Bottiglia b2 = new Bottiglia(500);
         b2.riempi(200);
-        b2.svouta(50);
+        b2.svuota(50);
         System.out.println(b2);
 
     }

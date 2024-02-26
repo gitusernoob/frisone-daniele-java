@@ -1,0 +1,18 @@
+
+EREDITARIETA'
+
+- Quando l'oggetto di una classe EREDITA le caratteristiche di un altra classe
+
+- class Persona
+    -nome
+    -cognome
+    -eta
+
+- class Studente extends Persona
+    -classe : String
+    -anno : String
+    -dataImmatricolazione : Integer
+    -matricola : String
+
+- class Segretaria extends Persona
+ 

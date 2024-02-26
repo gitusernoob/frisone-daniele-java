@@ -30,7 +30,7 @@ public class Bottiglia {
         if(this.quantita>capacita) this.quantita = capacita;
     }
 
-    public void svouta(int quantita){
+    public void svuota(int quantita){
         this.quantita -= quantita;
         if(this.quantita <0) this.quantita = 0;
     }
