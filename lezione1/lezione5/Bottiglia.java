@@ -35,4 +35,16 @@ public class Bottiglia {
         if(this.quantita <0) this.quantita = 0;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Bottiglia bottiglia = (Bottiglia) o;
+
+        if (capacita != bottiglia.capacita) return false;
+        return quantita == bottiglia.quantita;
+    }
+
+
 }
