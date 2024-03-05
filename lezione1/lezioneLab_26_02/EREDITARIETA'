@@ -15,4 +15,4 @@ EREDITARIETA'
     -matricola : String
 
 - class Segretaria extends Persona
- 
+
