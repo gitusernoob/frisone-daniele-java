@@ -7,11 +7,14 @@ class Quadrato extends Poligono {
         this.lato = lato;
     }
 
-    double area() {
+    @Override
+    public double area() {
         return lato * lato;
     }
 
-    double perimetro() {
+
+    @Override
+    public double perimetro() {
         return 4 * lato;
     }
 }

@@ -9,11 +9,13 @@ public class Rettangolo extends Poligono {
         this.altezza = altezza;
     }
 
-    double area() {
+    @Override
+    public double area() {
         return base * altezza;
     }
 
-    double perimetro() {
+    @Override
+    public double perimetro() {
         return 2 * (base + altezza);
     }
 }

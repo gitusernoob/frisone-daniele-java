@@ -15,7 +15,7 @@ public class EsercizioForme {
         arrayForme.add(rettangolo);
 
         double sommaAree = 0.0;
-        for (Poligono el : arrayForme){
+        for (Poligono el : arrayForme){ //questo equivale al for each
             sommaAree+=el.area();
         }
 

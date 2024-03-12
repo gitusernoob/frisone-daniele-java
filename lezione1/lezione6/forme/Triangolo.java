@@ -16,11 +16,13 @@ class Triangolo extends Poligono {
         this.base = lato1;
     }
 
-    double area() {
+    @Override
+    public double area() {
         return (base*altezza/2);
     }
 
-    double perimetro() {
+    @Override
+    public double perimetro() {
         return lato1 + lato2 + lato3;
     }
 }

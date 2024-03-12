@@ -1,14 +1,10 @@
 package lezione6.forme;
 
-public class Poligono {
+public abstract class  Poligono {
 
-    double area() {
-        return 0;
-    }
+    public abstract double area();
 
-    double perimetro() {
-        return 0;
-    }
+    public abstract double perimetro();
 
 
 
