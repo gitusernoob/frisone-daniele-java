@@ -1,26 +1,17 @@
 package lezione6.forme;
 
-public class Quadrato extends Poligoni{
+class Quadrato extends Poligono {
+    private double lato;
 
-
-    Double lato;
-
-
-    public Quadrato(Double lato) {
+    public Quadrato(double lato) {
         this.lato = lato;
     }
 
-
-    @Override
-    public void areaPoligono(){
-        super.area = lato*lato;
+    double area() {
+        return lato * lato;
     }
 
-    @Override
-    public  void perimetroPoligono(){
-        super.perimetro = lato*4;
+    double perimetro() {
+        return 4 * lato;
     }
-
-
-
 }

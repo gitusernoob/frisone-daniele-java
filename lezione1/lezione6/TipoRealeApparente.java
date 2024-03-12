@@ -8,9 +8,6 @@ public class TipoRealeApparente {
         BottigliaConTappo c = new BottigliaConTappo(500);
         Bottiglia d = new BottigliaConTappo(600); //nota bottiglia che è diverso da new bottiglia con tappo
 
-
-
-
     }
 
 
