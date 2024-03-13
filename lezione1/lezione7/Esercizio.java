@@ -23,4 +23,6 @@ public class Esercizio {
         Veicolo v3 = new Veicolo(Veicolo.TipoVeicolo.BICI);
         p2.aggiungiVeicolo(v3);
     }
+
+
 }
