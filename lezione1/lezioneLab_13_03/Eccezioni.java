@@ -10,14 +10,16 @@ public class Eccezioni {
         Scanner sc = new Scanner(System.in);
 
         try {
+            System.out.println("inserisci dividendo");
             double dividendo = Double.parseDouble(sc.nextLine());
+            System.out.println("inserisci divisore");
             double divisore = Double.parseDouble(sc.nextLine());
             if(divisore == 0){
-                throw new Exception("divisione per zero, errore");
+                throw new DivisionePerZeroException();
             }
             double risultato = dividendo/divisore;
             System.out.println(risultato);
-        }catch (Exception ex){
+        }catch (DivisionePerZeroException ex){
             System.out.println(ex.getMessage());
         }
 
